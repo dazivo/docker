@@ -1,6 +1,4 @@
-#docker
+# docker
 
-This repository contains mainly dockerfile for 
-building docker images. Its main purpose is a
-convenient trying out third party projects and
-learning docker.
+This repository contains mainly dockerfiles. Its main purpose is try 
+learn docker and trying out third party projects.
