@@ -8,6 +8,8 @@ RUN apt-get update -y && \
 
 RUN pip install --upgrade pip 
 RUN pip install poetry 
+# https://stackoverflow.com/questions/74385209/poetry-install-throws-connection-pool-is-full-discarding-connection-pypi-org
+RUN poetry config installer.max-workers 10 #
 
 COPY privateGPT privateGPT 
 
